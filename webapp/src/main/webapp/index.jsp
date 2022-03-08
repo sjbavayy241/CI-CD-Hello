@@ -10,10 +10,10 @@
             <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
             <label for="email"><i class="fa fa-envelope"></i> Email dengu</label>
             <input type="text" id="email" name="email" placeholder="john@example.com">
-            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address Rasipo</label>
 	    <br>
             <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
-            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <label for="city"><i class="fa fa-institution"></i> City Hyderbad Lo</label>
             <input type="text" id="city" name="city" placeholder="New York">
 
             <div class="row">
@@ -30,7 +30,7 @@
 
           <div class="col-50">
             <h3>Payment</h3>
-            <label for="fname">Accepted Cards</label>
+            <label for="fname">Accepted Cards Paypal</label>
             <div class="icon-container">
               <i class="fa fa-cc-visa" style="color:navy;"></i>
               <i class="fa fa-cc-amex" style="color:blue;"></i>
