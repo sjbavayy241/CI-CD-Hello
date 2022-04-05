@@ -1,0 +1,106 @@
+    1  ls
+    2  clear
+    3  ls
+    4  apt update
+    5  yum update
+    6  clear
+    7  ip
+    8  hotname
+    9  hostname
+   10  whoami
+   11  pwd
+   12  uname
+   13  id
+   14  lsof
+   15  clear
+   16  yum update
+   17  sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   18  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+   19  sudo dnf upgrade
+   20  sudo dnf install java-11-openjdk
+   21  sudo yum upgrade
+   22  sudo yum install java-11-openjdk
+   23  yum install jenkins
+   24  sudo systemctl daemon-reload
+   25  sudo systemctl enable jenkins
+   26  sudo systemctl start jenkins
+   27  sudo systemctl status jenkins
+   28  sudo systemctl start jenkins
+   29  clear
+   30  sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   31  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+   32  sudo yum upgrade
+   33  sudo yum install java-11-openjdk
+   34  sudo amazon-linux-extras install java-openjdk11
+   35  sudo amazon-linux-extras install jenkins -y
+   36  sudo yum install jenkins
+   37  sudo systemctl start jenkins
+   38  sudo systemctl enable jenkins
+   39  sudo systemctl start jenkins
+   40  sudo systemctl status jenkins
+   41  clear
+   42  ps
+   43  ps -a
+   44  cd /tomcat
+   45  cat /var/lib/jenkins/secrets/initialAdminPassword
+   46  git --help
+   47  install git -y
+   48  yum install git -y
+   49  clear
+   50  git --help
+   51  cd /var/lib/jenkins/workspace/
+   52  ls
+   53  cd Git_Job/
+   54  ll
+   55  cd /opt
+   56  ls
+   57  wget https://dlcdn.apache.org/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.tar.gz        
+   58  ls
+   59  clear
+   60  tar -xvzf
+   61  ls
+   62  tar -xvzf apache-maven-3.8.5-bin.tar.gz
+   63  ls
+   64  mv apache-maven-3.8.5 tomacat
+   65  ls
+   66  cd tomacat/
+   67  ls
+   68  cd bin/
+   69  ls
+   70  ./mvn -v
+   71  clear
+   72  ll
+   73  cd
+   74  pwd
+   75  ll-a
+   76  ll -a
+   77  vi .bash_profile
+   78  find / -name java-11*
+   79  vi .bash_profile
+   80  echo $PATH
+   81  source .bash_profile
+   82  echo $PATH
+   83  mvn -v
+   84  maven
+   85  mvn --help
+   86  cd
+   87  mvn -v
+   88  vi .bash_profile
+   89  source .bash_profile
+   90  mvn -v
+   91  echo $PATH
+   92  cd
+   93  ls
+   94  ll
+   95  clear
+   96  cd /bin
+   97  ls
+   98  clear
+   99  cd
+  100  vi .bash_profile
+  101  source .bash_profile
+  102  mvn -v
+  103  pwd
+  104  echo $PATH
+
+

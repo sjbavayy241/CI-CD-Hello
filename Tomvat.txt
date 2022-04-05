@@ -1,0 +1,68 @@
+    1  ls
+    2  clear
+    3  yum aptadte
+    4  yum install jva
+    5  yum install java-openjdk11 -y
+    6  amazon-linux-extras install java-openjdk11 -y
+    7  java -version
+    8  pwd
+    9  cd /opt
+   10  ls
+   11  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.62/bin/apache-tomcat-9.0.62.tar.gz
+   12  tar -xvzf apache-tomcat-9.0.62.tar.gz
+   13  ls
+   14  mv apache-tomcat-9.0.62 tomcat
+   15  ls
+   16  cd tomcat/
+   17  ls
+   18  cd bin/
+   19  ls
+   20  ./startup.sh
+   21  cd ..
+   22  clear
+   23  ll
+   24  cd webapps/
+   25  ls
+   26  vi host-manager/context.xml
+   27  cd host-manager/
+   28  ls
+   29  cd META-INF/
+   30  ls
+   31  vi context.xml
+   32  cd ..
+   33  ls
+   34  cd ..
+   35  ls
+   36  cd manager/META-INF/
+   37  ls
+   38  vi context.xml
+   39  cd ..
+   40  ll
+   41  cd bin/
+   42  ll
+   43  ./startup.sh
+   44  ./shutdown.sh
+   45  ./startup.sh
+   46  cd bin/
+   47  cd ..
+   48  ll
+   49  cd conf/
+   50  ls
+   51  vi tomcat-users.xml
+   52  ls
+   53  clear
+   54  cd ..
+   55  ./shutdown.sh
+   56  ll
+   57  cd bin
+   58  ./shutdown.sh
+   59  ./startup.sh
+   60  ln -s /opt/tomcat/bin/startup.sh /usr/local/bin/tomcatup
+   61  ln -s /opt/tomcat/bin/shutdown.sh /usr/local/bin/tomcatdown
+   62  echo $PATH
+   
+
+
+
+
+
